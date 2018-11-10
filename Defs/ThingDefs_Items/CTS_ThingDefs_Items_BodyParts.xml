@@ -30,9 +30,9 @@
 		</li>
     </comps>
 	<alwaysHaulable>true</alwaysHaulable>
-	<isBodyPartOrImplant>true</isBodyPartOrImplant>
+	<!--==== <isBodyPartOrImplant>true</isBodyPartOrImplant> ============-->
 	<tradeTags>
-      <li>BodyPartOrImplant</li>
+      <li>ExoticMisc</li>
     </tradeTags>
   </ThingDef>
   

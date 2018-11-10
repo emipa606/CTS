@@ -90,3 +90,11 @@ changelog for mod "CTS - Complete Tech Solutions"
 - 20/01/2018
 
 	- added modsync file
+
+- 10/11/2018
+
+	- rimworld 1.0 update
+	- assembly update, texture renaming, xml updates for 1.0
+	- minified stuff set as furniture or buildlingspower categories
+	- added medicalquality max and mass to bandages and nano med; bandage 0.6 medqual and 0.25mass, nanomed medqual 3.3 mass was 0.5
+	

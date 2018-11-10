@@ -130,20 +130,20 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Medicine</li>
+            <li>MedicineIndustrial</li>
           </thingDefs>
         </filter>
         <count>2</count>
       </li>
     </ingredients>
     <products>
-      <GlitterworldMedicine>1</GlitterworldMedicine>
+      <MedicineUltratech>1</MedicineUltratech>
     </products>
     <fixedIngredientFilter>
       <thingDefs>
         <li>CTSBloodBag</li>
         <li>CTSBandage</li>
-        <li>Medicine</li>
+        <li>MedicineIndustrial</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
@@ -177,7 +177,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>AdvancedComponent</li>
+            <li>ComponentSpacer</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -185,7 +185,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Medicine</li>
+            <li>MedicineIndustrial</li>
           </thingDefs>
         </filter>
         <count>4</count>
@@ -197,8 +197,8 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>CTSBloodBag</li>
-        <li>AdvancedComponent</li>
-        <li>Medicine</li>
+        <li>ComponentSpacer</li>
+        <li>MedicineIndustrial</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>

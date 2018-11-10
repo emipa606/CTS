@@ -8,9 +8,6 @@
 	<description>Allows you to construct small plasma generator.</description>
 	<baseCost>1000</baseCost>
 	<techLevel>Spacer</techLevel>
-		<tags>
-			<li>Spacer</li>
-		</tags>
 	<prerequisites>	  
 	  <li>GeothermalPower</li>
 	</prerequisites>
@@ -26,9 +23,6 @@
 	<description>Allows you to construct outdoor plasma fueled generator.(fuel -> uranium)</description>
 	<baseCost>1500</baseCost>
 	<techLevel>Spacer</techLevel>
-		<tags>
-			<li>Spacer</li>
-		</tags>
 	<prerequisites>
 	  <li>CTSPlasma_Gen</li>
 	</prerequisites>
@@ -44,9 +38,6 @@
 	<description>Allows you to construct Big plasma generator.</description>
 	<baseCost>3000</baseCost>
 	<techLevel>Spacer</techLevel>
-		<tags>
-			<li>Spacer</li>
-		</tags>
 	<prerequisites>
 	  <li>CTSPlasma_Geo_Plant</li>
 	</prerequisites>
@@ -62,9 +53,6 @@
     <description>Allows you to construct Advanced Medicine Lab. Now you can make the best medicine in Rimworld</description>
     <baseCost>1000</baseCost>
 	<techLevel>Spacer</techLevel>
-		<tags>
-			<li>Spacer</li>
-		</tags>
     <prerequisites>
       <li>MicroelectronicsBasics</li>
       <li>HospitalBed</li>
@@ -82,9 +70,6 @@
     <description>Allows you to construct Advanced Vital Monitors and Hi-tech Hospital Beds.</description>
     <baseCost>1500</baseCost>
 	<techLevel>Spacer</techLevel>
-		<tags>
-			<li>Spacer</li>
-		</tags>
     <prerequisites>
       <li>CTSAdvanced_Medicine_Lab</li>      
     </prerequisites>

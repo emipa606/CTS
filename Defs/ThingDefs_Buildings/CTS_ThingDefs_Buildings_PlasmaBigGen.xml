@@ -38,8 +38,8 @@
 			<Steel>300</Steel>
 			<Plasteel>100</Plasteel>
 			<Uranium>50</Uranium>
-			<Component>15</Component>
-			<AdvancedComponent>4</AdvancedComponent>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<ComponentSpacer>4</ComponentSpacer>
     </costList>
 	<comps>
     <li Class="CompProperties_Power">
@@ -65,7 +65,10 @@
     <researchPrerequisites>
       <li>CTSPlasma_Big_Gen</li>
     </researchPrerequisites>
-	<minifiedDef>MinifiedFurniture</minifiedDef>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
   </ThingDef>
   
 </Defs>

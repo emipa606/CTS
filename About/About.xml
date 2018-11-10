@@ -2,7 +2,7 @@
 <ModMetaData>
 	<name>CTS - Complete Tech Solutions</name>
 	<author>Kexici</author>
-	<targetVersion>0.18.1722</targetVersion>
+	<targetVersion>1.0.2059</targetVersion>
 	<url>https://ludeon.com/forums/index.php?topic=27212.0</url>
 	<description>New Power Source (all animated) and advaced medical suply
 	
@@ -27,5 +27,7 @@ Advanced vital monitors
 1 new operation - TAKE BLOOD :D (use blood bags to make medicine)
 
 	updated by erdelf and sulusdacor
+	
+	Ver.: 1.0-1.0.0
 </description>
 </ModMetaData> 
