@@ -1,19 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>CTS - Complete Tech Solutions</name>
-	<author>Kexici</author>
-	<targetVersion>1.0.2059</targetVersion>
-	<url>https://ludeon.com/forums/index.php?topic=27212.0</url>
-	<description>New Power Source (all animated) and advaced medical suply
+  <name>CTS - Complete Tech Solutions (Continued)</name>
+  <packageId>Mlie.CTS</packageId>
+  <author>Kexici</author>
+  <url>https://github.com/emipa606/CTS</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Kexicis mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=792364419
+
+- Replaced the individual patches with one that adds the Advanced Vitals Monitor to all Furniture that has the vanilla as a linkable facility, should now work with all mods.
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/CTS][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
 	
-	Add:
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+not doing anymore updates for any rimworld mods.
+
+[b]I did not create this mod!
+
+This is just an update of the [url=https://ludeon.com/forums/index.php?topic=18692.0]original CTS mod[/url]. the description and all content is taken from there with permission from the author. thanks to the original creator of the mod kexici
+
+The update for A15 was done by erdelf and sulusdacor.[/b]
+
+[h1]Details:[/h1]
+
+New high tech power source. (All animated.)
+New high tech medical resource.
+
+Add:
 POWER SOURCE
 Small plasma generator (need charge first - its basic from clutter by mrofra )
  - need charge first ( -1000W) after you get 100% free energy :D (+1000W)
- - but beware : dont interupt the charge proces - > start from begining :D  and its a loooong time
+ - but beware : dont interupt the charge proces -  start from begining :D  and its a loooong time
 Big plasma generator (need charge first)
  - need charge first ( -10000W) after you get 100% free energy :D (+10000W)
- - but beware : dont interupt the charge proces - > start from begining :D  and its a loooong time
+ - but beware : dont interupt the charge proces -  start from begining :D  and its a loooong time
 Plasma fueled generator ( idea from Glitter Tech)
  - work for Uranium  (full tank = 10 = 1 season = 5000W)
  - must be build outdoor (nobody want smoking reactor in bedroom) ( maybe Tony Stark :D )
@@ -26,8 +60,35 @@ Advanced vital monitors
                          - Nano-tech medicine (better then glliterworld)
 1 new operation - TAKE BLOOD :D (use blood bags to make medicine)
 
-	updated by erdelf and sulusdacor
-	
-	Ver.: 1.0-1.0.0
-</description>
-</ModMetaData> 
+[i]Ludeon forum topic of updated CTS:[/i]
+https://ludeon.com/forums/index.php?topic=27212.0
+
+[h1]Credits:[/h1]
+
+kexici
+
+credits for super ideas for code or graphics to mrofa and his [url=https://ludeon.com/forums/index.php?topic=17610.0]Clutter mod[/url]
+
+updated by erdelf and sulusdacor
+
+[b]Dropbox:[/b] https://www.dropbox.com/s/r08kuqyu1fm0nmf/CTS_v1.7z?dl=0
+
+[b]GitHub:[/b] https://github.com/sulusdacor/CTS/releases
+
+source code for modders: https://www.dropbox.com/s/vbmst72rw3uwuad/CTS_v1_source.7z?dl=0
+
+[b]Compatibility Patches[/b]
+
+the main mod version now includes the patches over patchoperations and mod load checker. So you don't need these anymore as extra mods. Let me know if want some compatibility added with specific mods.
+
+so far it includes:
+vanilla = adds the adv vitals monitor from CTS to all beds in vanilla
+[url=https://ludeon.com/forums/index.php?topic=16977.0]more furniture[/url] = adds the linkable stuff in more furniture to the adv hospital bed form CTS
+[url=https://ludeon.com/forums/index.php?topic=26276.msg265731#msg265731][sd]goodnight[/url] = adds the adv vitals monitor from CTS to all beds in goodnight
+[url=https://ludeon.com/forums/index.php?topic=26276.msg273452#msg273452][sd]medicaddons[/url] = adds the linkabel stuff form medic adoosn to the adv hospital bed form CTS
+[url=https://ludeon.com/forums/index.php?topic=26379.0]RIMkea[/url] = adds the adv vitals monitor from CTS to all beds in RIMkea
+[url=https://ludeon.com/forums/index.php?topic=4373.0][T]MoreBeds[/url] = adds the adv vitals monitor from CTS to all beds in MoreBeds (works with both versions)
+
+Dropbox link to folder with old mods in forum topic for the mod.
+Changelog in forumtopic or about folder of mod.</description>
+</ModMetaData>

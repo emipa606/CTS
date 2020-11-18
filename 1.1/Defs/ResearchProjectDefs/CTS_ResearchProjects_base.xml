@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=============================== CTS research proj base abstract ===================================-->
+  <ResearchProjectDef Name="CTSResearchProjectBase" Abstract="True">
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <tab>CTS_ResearchTab</tab>
+  </ResearchProjectDef>
+</Defs>

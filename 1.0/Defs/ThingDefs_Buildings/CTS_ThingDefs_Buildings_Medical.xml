@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--================================= adv medicine lab =================================-->
+  <ThingDef ParentName="CTSBuildingBase">
+    <defName>CTSAdvancedMedicineLab</defName>
+    <label>Advanced Medicine Laboratory</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>You can craft bandages, medicine, glitterworld medicine, nano-tech medicine.</description>
+    <graphicData>
+      <texPath>CTS/AdvancedLab/AdvancedLab</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.15,0.15,1.7,1.7)</rect>
+      </damageData>
+    </graphicData>
+    <researchPrerequisites>
+      <li>CTSAdvanced_Medicine_Lab</li>
+    </researchPrerequisites>
+    <size>(2,2)</size>
+    <rotatable>true</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <pathCost>70</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <designationCategory>Production</designationCategory>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>75</Mass>
+      <WorkToBuild>5000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costList>
+      <Steel>100</Steel>
+      <Plasteel>50</Plasteel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <interactionCellOffset>(0,0,2)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>250</basePowerConsumption>
+        <soundPowerOn>Power_OnSmall</soundPowerOn>
+        <soundPowerOff>Power_OffSmall</soundPowerOff>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+  </ThingDef>
+  <!--================================= adv vitals monitor =================================-->
+  <ThingDef ParentName="CTSFurnitureBase">
+    <defName>CTSAdvancedVitalsMonitor</defName>
+    <label>Advanced vitals monitor</label>
+    <graphicData>
+      <texPath>CTS/AdvancedVitalMonitor/AdvancedVitalMonitor</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <rect>(0.15,0.15,1.7,1.7)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconPath>CTS/AdvancedVitalMonitor/ico/AdvancedVitalMonitor_menuicon</uiIconPath>
+    <researchPrerequisites>
+      <li>CTSAdvanced_Vitals_Monitor</li>
+    </researchPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>1</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>4000</WorkToBuild>
+      <Mass>30</Mass>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <description>Very Increases patients treatment quality. Needs to be placed adjacent to a Hi-tech medical bed. One Hi-tech medical bed can be linked to only one Advanced vitals monitor.</description>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>50</Steel>
+      <Plasteel>20</Plasteel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <designationCategory>Misc</designationCategory>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>200</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <MedicalTendQualityOffset>0.14</MedicalTendQualityOffset>
+          <ImmunityGainSpeedFactor>0.04</ImmunityGainSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(217,217,208,0)</glowColor>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+  </ThingDef>
+  <!--================================= high tech hospital bed =================================-->
+  <ThingDef ParentName="CTSAdvHospitalBedBase">
+    <defName>CTSHiTechHospitalBed</defName>
+    <label>Hi-tech Hospital Beds</label>
+    <description>A hi-tech bed specially designed for brutal surgery. Very improves chance of successful medical work.</description>
+    <thingClass>Building_Bed</thingClass>
+    <graphicData>
+      <texPath>CTS/HiTechBed/HiTechHospitalBed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,4)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>2850</WorkToBuild>
+      <Mass>65</Mass>
+      <Flammability>1.0</Flammability>
+      <BedRestEffectiveness>1</BedRestEffectiveness>
+      <Comfort>1</Comfort>
+      <ImmunityGainSpeedFactor>1.3</ImmunityGainSpeedFactor>
+      <MedicalTendQualityOffset>0.20</MedicalTendQualityOffset>
+    </statBases>
+    <size>(1,2)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <ComponentSpacer>4</ComponentSpacer>
+      <CTSNanoTechMedicine>5</CTSNanoTechMedicine>
+    </costList>
+    <building>
+      <bed_showSleeperBody>False</bed_showSleeperBody>
+      <bed_healPerDay>16</bed_healPerDay>
+      <bed_defaultMedical>true</bed_defaultMedical>
+    </building>
+    <fillPercent>0.4</fillPercent>
+    <pathCost>60</pathCost>
+    <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+    <staticSunShadowHeight>0.17</staticSunShadowHeight>
+    <castEdgeShadows>True</castEdgeShadows>
+    <passability>PassThroughOnly</passability>
+    <drawGUIOverlay>True</drawGUIOverlay>
+    <researchPrerequisites>
+      <li>CTSAdvanced_Vitals_Monitor</li>
+    </researchPrerequisites>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+</Defs>

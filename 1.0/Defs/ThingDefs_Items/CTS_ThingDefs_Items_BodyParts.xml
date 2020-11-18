@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--================================= blood bag =================================-->
+  <ThingDef ParentName="CTSResourceBase">
+    <defName>CTSBloodBag</defName>
+    <label>Blood Bag</label>
+    <description>Blood bag. Use like infuse to create cure for diseases and crafting glitterworld medicine</description>
+    <graphicData>
+      <texPath>CTS/Items/BloodBag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>100</stackLimit>
+    <statBases>
+      <MarketValue>5</MarketValue>
+      <Mass>0.25</Mass>
+      <DeteriorationRate>2</DeteriorationRate>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>BodyPartsNatural</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>10</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <!--==== <isBodyPartOrImplant>true</isBodyPartOrImplant> ============-->
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+</Defs>

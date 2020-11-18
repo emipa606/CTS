@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--================================= abstract base =================================-->
+  <RecipeDef Abstract="True" Name="CTSSurgeryFlesh">
+    <effectWorking>Surgery</effectWorking>
+    <soundWorking>Recipe_Surgery</soundWorking>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+    <workSkill>Medicine</workSkill>
+    <workSkillLearnFactor>16</workSkillLearnFactor>
+  </RecipeDef>
+  <!--================================= take blood surgery  =================================-->
+  <RecipeDef ParentName="CTSSurgeryFlesh">
+    <defName>CTSTakeBlood</defName>
+    <label>take blood</label>
+    <description>Take blood</description>
+    <workerClass>CTS.Recipe_CTS_TakeBlood</workerClass>
+    <jobString>Taking blood</jobString>
+    <isViolation>true</isViolation>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <workAmount>300</workAmount>
+    <hideBodyPartNames>true</hideBodyPartNames>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <CTSBloodBag>5</CTSBloodBag>
+    </products>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CTSBloodtaken</addsHediff>
+  </RecipeDef>
+</Defs>
