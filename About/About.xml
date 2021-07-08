@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>CTS - Complete Tech Solutions (Continued)</name>
   <packageId>Mlie.CTS</packageId>
@@ -8,6 +8,7 @@
     <li>1.0</li>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />
@@ -27,7 +28,6 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=792364419
 [/table]
 	
 [img]https://i.imgur.com/NOW7jU1.png[/img]
-not doing anymore updates for any rimworld mods.
 
 [b]I did not create this mod!
 
@@ -71,24 +71,15 @@ credits for super ideas for code or graphics to mrofa and his [url=https://ludeo
 
 updated by erdelf and sulusdacor
 
-[b]Dropbox:[/b] https://www.dropbox.com/s/r08kuqyu1fm0nmf/CTS_v1.7z?dl=0
-
-[b]GitHub:[/b] https://github.com/sulusdacor/CTS/releases
-
-source code for modders: https://www.dropbox.com/s/vbmst72rw3uwuad/CTS_v1_source.7z?dl=0
-
-[b]Compatibility Patches[/b]
-
-the main mod version now includes the patches over patchoperations and mod load checker. So you don't need these anymore as extra mods. Let me know if want some compatibility added with specific mods.
-
-so far it includes:
-vanilla = adds the adv vitals monitor from CTS to all beds in vanilla
-[url=https://ludeon.com/forums/index.php?topic=16977.0]more furniture[/url] = adds the linkable stuff in more furniture to the adv hospital bed form CTS
-[url=https://ludeon.com/forums/index.php?topic=26276.msg265731#msg265731][sd]goodnight[/url] = adds the adv vitals monitor from CTS to all beds in goodnight
-[url=https://ludeon.com/forums/index.php?topic=26276.msg273452#msg273452][sd]medicaddons[/url] = adds the linkabel stuff form medic adoosn to the adv hospital bed form CTS
-[url=https://ludeon.com/forums/index.php?topic=26379.0]RIMkea[/url] = adds the adv vitals monitor from CTS to all beds in RIMkea
-[url=https://ludeon.com/forums/index.php?topic=4373.0][T]MoreBeds[/url] = adds the adv vitals monitor from CTS to all beds in MoreBeds (works with both versions)
-
-Dropbox link to folder with old mods in forum topic for the mod.
-Changelog in forumtopic or about folder of mod.</description>
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+

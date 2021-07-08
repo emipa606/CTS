@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>feaa55e2-2b3b-47ab-8967-425e37b0ae50</ID>
   <ModName>CTS - Complete Tech Solutions (Continued)</ModName>
-  <Version>1.0.1.0</Version>
+  <Version>1.0.2.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,8 +12,3 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
-
-
-
-
-

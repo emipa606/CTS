@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--================================= make bandage =================================-->
+  <RecipeDef>
+    <defName>CTSMakeBandage</defName>
+    <label>Make Bandages</label>
+    <description>Sterilize cloth to create bandages.</description>
+    <jobString>Creating Bandages.</jobString>
+    <workAmount>500</workAmount>
+    <workSkill>Medicine</workSkill>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <recipeUsers>
+      <li>HandTailoringBench</li>
+      <li>ElectricTailoringBench</li>
+      <li>CTSAdvancedMedicineLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Medicine>2</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <CTSBandage>1</CTSBandage>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <!--================================= make medicine old recipe, not needed since in base game
+  
+  <RecipeDef>
+    <defName>MakeMedicine</defName>
+    <label>Make Medicine</label>
+    <description>Combine herbal medicines and bandage to create a medical kit.</description>
+    <jobString>Creating Medicine.</jobString>
+    <workAmount>2000</workAmount>
+    <workSkill>Medicine</workSkill>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <recipeUsers>
+      <li>AdvancedMedicineLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <li>
+        <skill>Medicine</skill>
+        <minLevel>5</minLevel>
+      </li>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Bandage</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <Medicine>1</Medicine>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Bandage</li>
+        <li>MedicineHerbal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  
+  =================================-->
+  <!--================================= make glitter med =================================-->
+  <RecipeDef>
+    <defName>CTSMakeGlitterMedicine</defName>
+    <label>Make Glitterworld Medicine</label>
+    <description>Combine Medical Kits, Blood bags and Bandages to create a higher quality medical kit.</description>
+    <jobString>Creating Glitter world medical pack.</jobString>
+    <workAmount>2000</workAmount>
+    <workSkill>Medicine</workSkill>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <recipeUsers>
+      <li>CTSAdvancedMedicineLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CTSBloodBag</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CTSBandage</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <MedicineUltratech>1</MedicineUltratech>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>CTSBloodBag</li>
+        <li>CTSBandage</li>
+        <li>MedicineIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <!--================================= make nano med =================================-->
+  <RecipeDef>
+    <defName>CTSMakeNanoTechMedicine</defName>
+    <label>Make Nano-tech Medicine</label>
+    <description>Combine Medical Kits, Blood bags and Advcanced Components to create a hi-tech superior nanites medical kit.</description>
+    <jobString>Creating Nano-tech Medicine.</jobString>
+    <workAmount>2000</workAmount>
+    <workSkill>Medicine</workSkill>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <recipeUsers>
+      <li>CTSAdvancedMedicineLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Medicine>15</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CTSBloodBag</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <products>
+      <CTSNanoTechMedicine>1</CTSNanoTechMedicine>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>CTSBloodBag</li>
+        <li>ComponentSpacer</li>
+        <li>MedicineIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>
