@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>CTS - Complete Tech Solutions (Continued)</name>
   <packageId>Mlie.CTS</packageId>
@@ -12,13 +12,13 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Kexicis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=792364419
 
 - Replaced the individual patches with one that adds the Advanced Vitals Monitor to all Furniture that has the vanilla as a linkable facility, should now work with all mods.
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
@@ -27,7 +27,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=792364419
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 [b]I did not create this mod!
 
@@ -71,7 +71,7 @@ credits for super ideas for code or graphics to mrofa and his [url=https://ludeo
 
 updated by erdelf and sulusdacor
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -82,4 +82,3 @@ updated by erdelf and sulusdacor
 [/list]
 </description>
 </ModMetaData>
-

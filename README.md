@@ -1,25 +1,16 @@
 # CTS
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Kexicis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=792364419
 
 - Replaced the individual patches with one that adds the Advanced Vitals Monitor to all Furniture that has the vanilla as a linkable facility, should now work with all mods.
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-    [tr]
-        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-        [td]https://github.com/emipa606/CTS]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-    [/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 **I did not create this mod!
@@ -66,7 +57,7 @@ credits for super ideas for code or graphics to mrofa and his https://ludeon.com
 
 updated by erdelf and sulusdacor
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

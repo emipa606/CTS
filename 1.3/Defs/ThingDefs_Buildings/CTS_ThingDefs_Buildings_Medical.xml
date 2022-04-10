@@ -150,6 +150,7 @@
           <li>VitalsMonitor</li>
           <li>EndTable</li>
           <li>Dresser</li>
+          <li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
         </linkableFacilities>
       </li>
     </comps>
