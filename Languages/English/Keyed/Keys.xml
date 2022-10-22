@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CTS_PowerOutput>Power output: {0} W</CTS_PowerOutput>
+  <CTS_ChargingProgress>Charging Progress: {0}</CTS_ChargingProgress>
+  <CTS_BloodLabel>Take Blood</CTS_BloodLabel>
+  <CTS_BloodInfo>Quickly designate Pawns to add the take blood medical bill.</CTS_BloodInfo>
+  <CTS_MessageAlready>Must designate colonists that aren't already designated.</CTS_MessageAlready>
+  <CTS_MessagePawns>Pawns designated for blood taking.</CTS_MessagePawns>
+  <CTS_MessageDesignate>Must designate pawns.</CTS_MessageDesignate>
+</LanguageData>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--================================= bandage =================================-->
+  <ThingDef ParentName="CTSResourceBase">
+    <defName>CTSBandage</defName>
+    <label>Bandages</label>
+    <description>A pack bandages for basic treatment.</description>
+    <thingClass>Medicine</thingClass>
+    <graphicData>
+      <texPath>CTS/Items/Bandage</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <statBases>
+      <Mass>0.25</Mass>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>5</MarketValue>
+      <Flammability>1.0</Flammability>
+      <MedicalPotency>0.5</MedicalPotency>
+      <MedicalQualityMax>0.60</MedicalQualityMax>
+    </statBases>
+    <thingCategories>
+      <li>Medicine</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+  </ThingDef>
+  <!--================================= nano medicine =================================-->
+  <ThingDef ParentName="CTSResourceBase">
+    <defName>CTSNanoTechMedicine</defName>
+    <label>Nano-tech medicine</label>
+    <description>Advanced medical nanites, best medicine in Rimworld.</description>
+    <thingClass>Medicine</thingClass>
+    <graphicData>
+      <texPath>CTS/Items/NanoMedicine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>0.5</Mass>
+      <Flammability>1.0</Flammability>
+      <MedicalPotency>3.6</MedicalPotency>
+      <MedicalQualityMax>3.30</MedicalQualityMax>
+    </statBases>
+    <thingCategories>
+      <li>Medicine</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+</Defs>
