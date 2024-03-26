@@ -15,6 +15,7 @@ public class PlasmaGeothermalPlant : Building
     private static readonly int FrameCount = 12;
 
     private static readonly Graphic[] TexResFrames = new Graphic[FrameCount];
+    private static readonly GameConditionDef solarFlare = GameConditionDef.Named("SolarFlare");
 
     public float basePowerConsumption;
 
@@ -73,7 +74,7 @@ public class PlasmaGeothermalPlant : Building
                 if (powerComp != null)
                 {
                     powerComp.PowerOutput =
-                        Map.gameConditionManager.ConditionIsActive(GameConditionDefOf.SolarFlare) ? 10000f : 5000f;
+                        Map.gameConditionManager.ConditionIsActive(solarFlare) ? 10000f : 5000f;
                 }
 
                 timer++;
@@ -112,9 +113,9 @@ public class PlasmaGeothermalPlant : Building
         TexMain.color = base.Graphic.color;
     }
 
-    public override void Draw()
+    protected override void DrawAt(Vector3 drawLoc, bool flip = false)
     {
-        base.Draw();
+        base.DrawAt(drawLoc, flip);
         if (!powerComp.PowerOn || TexMain == null)
         {
             return;
@@ -122,7 +123,7 @@ public class PlasmaGeothermalPlant : Building
 
         var matrix4x = default(Matrix4x4);
         var vector = new Vector3(4f, 1f, 4f);
-        matrix4x.SetTRS(DrawPos + Altitudes.AltIncVect, Rotation.AsQuat, vector);
+        matrix4x.SetTRS(drawLoc + Altitudes.AltIncVect, Rotation.AsQuat, vector);
         Graphics.DrawMesh(MeshPool.plane10, matrix4x, TexMain.MatAt(Rotation), 0);
     }
 }

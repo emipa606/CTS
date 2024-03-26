@@ -21,6 +21,8 @@ public class PlasmaBigGen : Building
 
     private static readonly Graphic[] TexResFrames2;
 
+    private static readonly GameConditionDef solarFlare = GameConditionDef.Named("SolarFlare");
+
     private int Charges;
 
     private int ChargesString;
@@ -118,7 +120,7 @@ public class PlasmaBigGen : Building
                     case > 0:
                     {
                         powerComp.PowerOutput =
-                            Map.gameConditionManager.ConditionIsActive(GameConditionDefOf.SolarFlare) ? 20000f : 10000f;
+                            Map.gameConditionManager.ConditionIsActive(solarFlare) ? 20000f : 10000f;
 
                         if (Position.GetTemperature(Map) < 100f)
                         {
@@ -132,11 +134,13 @@ public class PlasmaBigGen : Building
                 return;
             }
 
-            if (!powerComp.PowerOn && Stage <= 0)
+            if (powerComp.PowerOn || Stage > 0)
             {
-                Charges = 0;
-                ChargesString = 0;
+                return;
             }
+
+            Charges = 0;
+            ChargesString = 0;
         }
     }
 
@@ -193,9 +197,9 @@ public class PlasmaBigGen : Building
         TexMain.color = base.Graphic.color;
     }
 
-    public override void Draw()
+    protected override void DrawAt(Vector3 drawLoc, bool flip = false)
     {
-        base.Draw();
+        base.DrawAt(drawLoc, flip);
         if (!powerComp.PowerOn || TexMain == null)
         {
             return;
@@ -203,7 +207,7 @@ public class PlasmaBigGen : Building
 
         var matrix4x = default(Matrix4x4);
         var vector = new Vector3(6f, 1f, 6f);
-        matrix4x.SetTRS(DrawPos + Altitudes.AltIncVect, Rotation.AsQuat, vector);
+        matrix4x.SetTRS(drawLoc + Altitudes.AltIncVect, Rotation.AsQuat, vector);
         Graphics.DrawMesh(MeshPool.plane10, matrix4x, TexMain.MatAt(Rotation), 0);
     }
 }
