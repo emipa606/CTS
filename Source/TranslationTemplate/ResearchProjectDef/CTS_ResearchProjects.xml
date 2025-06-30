@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Advanced Medicine Lab -->
+  <CTSAdvanced_Medicine_Lab.label>Advanced Medicine Lab</CTSAdvanced_Medicine_Lab.label>
+  <!-- EN: Allows you to construct Advanced Medicine Lab. Now you can make the best medicine in Rimworld -->
+  <CTSAdvanced_Medicine_Lab.description>Allows you to construct Advanced Medicine Lab. Now you can make the best medicine in Rimworld</CTSAdvanced_Medicine_Lab.description>
+  <!-- EN: Advanced Vitals Monitor and beds -->
+  <CTSAdvanced_Vitals_Monitor.label>Advanced Vitals Monitor and beds</CTSAdvanced_Vitals_Monitor.label>
+  <!-- EN: Allows you to construct Advanced Vital Monitors and Hi-tech Hospital Beds. -->
+  <CTSAdvanced_Vitals_Monitor.description>Allows you to construct Advanced Vital Monitors and Hi-tech Hospital Beds.</CTSAdvanced_Vitals_Monitor.description>
+  <!-- EN: Big plasma generator -->
+  <CTSPlasma_Big_Gen.label>Big plasma generator</CTSPlasma_Big_Gen.label>
+  <!-- EN: Allows you to construct Big plasma generator. -->
+  <CTSPlasma_Big_Gen.description>Allows you to construct Big plasma generator.</CTSPlasma_Big_Gen.description>
+  <!-- EN: Small plasma generator -->
+  <CTSPlasma_Gen.label>Small plasma generator</CTSPlasma_Gen.label>
+  <!-- EN: Allows you to construct small plasma generator. -->
+  <CTSPlasma_Gen.description>Allows you to construct small plasma generator.</CTSPlasma_Gen.description>
+  <!-- EN: Plasma fueled generator -->
+  <CTSPlasma_Geo_Plant.label>Plasma fueled generator</CTSPlasma_Geo_Plant.label>
+  <!-- EN: Allows you to construct outdoor plasma fueled generator.(fuel -> uranium) -->
+  <CTSPlasma_Geo_Plant.description>Allows you to construct outdoor plasma fueled generator.(fuel -> uranium)</CTSPlasma_Geo_Plant.description>
+</LanguageData>

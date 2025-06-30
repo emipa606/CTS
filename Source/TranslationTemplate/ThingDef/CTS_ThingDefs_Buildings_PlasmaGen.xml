@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Small Plasma Generator -->
+  <CTSPlasmaGen.label>Small Plasma Generator</CTSPlasmaGen.label>
+  <!-- EN: Produces tax free electricity from plasma discharges, needs to be fully charged first (based on clutter) -->
+  <CTSPlasmaGen.description>Produces tax free electricity from plasma discharges, needs to be fully charged first (based on clutter)</CTSPlasmaGen.description>
+</LanguageData>

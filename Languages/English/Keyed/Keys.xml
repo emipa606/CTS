@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <CTS_PowerOutput>Power output: {0} W</CTS_PowerOutput>
   <CTS_ChargingProgress>Charging Progress: {0}</CTS_ChargingProgress>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Plasma Fueled Plant -->
+  <CTSPlasmaGeothermalPlant.label>Plasma Fueled Plant</CTSPlasmaGeothermalPlant.label>
+  <!-- EN: Produces electricity from uranium - plasma steam powered -->
+  <CTSPlasmaGeothermalPlant.description>Produces electricity from uranium - plasma steam powered</CTSPlasmaGeothermalPlant.description>
+</LanguageData>

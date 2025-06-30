@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ResearchProjectDef ParentName="CTSResearchProjectBase">
     <defName>CTSPlasma_Gen</defName>
@@ -15,7 +15,7 @@
   <ResearchProjectDef ParentName="CTSResearchProjectBase">
     <defName>CTSPlasma_Geo_Plant</defName>
     <label>Plasma fueled generator</label>
-    <description>Allows you to construct outdoor plasma fueled generator.(fuel -&gt; uranium)</description>
+    <description>Allows you to construct outdoor plasma fueled generator.(fuel -> uranium)</description>
     <baseCost>1500</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>

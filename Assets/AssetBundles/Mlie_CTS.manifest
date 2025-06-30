@@ -1,0 +1,96 @@
+ManifestFileVersion: 0
+CRC: 4277420265
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f843ca37feda09108d9b32a743110174
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f843ca37feda09108d9b32a743110174
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenVF3.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenVF6.png
+- Assets/Data/Mlie.CTS/Textures/CTS/AdvancedLab/AdvancedLab_south.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenVF10.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenVF11.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenF10.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenF5.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenF7.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenF8.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGeothermalPlantFrames/GeothermalPlantF12.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenVF11.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenVF3.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGeothermalPlantFrames/GeothermalPlantF5.png
+- Assets/Data/Mlie.CTS/Textures/CTS/HiTechBed/HiTechHospitalBed_east.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenVF10.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenVF8.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenF2.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGeothermalPlantFrames/GeothermalPlantF10.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenVF6.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenF12.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenF12.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenOff.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenVF7.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenF10.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenF11.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenF3.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenF9.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenVF1.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGeothermalPlantFrames/GeothermalPlantF4.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGeothermalPlantFrames/GeothermalPlantF2.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenF6.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenF7.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenVF5.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenF5.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenVF9.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGeothermalPlantFrames/GeothermalPlantF9.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenVF7.png
+- Assets/Data/Mlie.CTS/Textures/CTS/AdvancedVitalMonitor/AdvancedVitalMonitor_north.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenF1.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenVF9.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenF6.png
+- Assets/Data/Mlie.CTS/Textures/CTS/Items/Bandage.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenF1.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenF2.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGeothermalPlantFrames/GeothermalPlantF11.png
+- Assets/Data/Mlie.CTS/Textures/CTS/AdvancedVitalMonitor/AdvancedVitalMonitor_m.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenF4.png
+- Assets/Data/Mlie.CTS/Textures/CTS/AdvancedLab/AdvancedLab_north.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenVF4.png
+- Assets/Data/Mlie.CTS/Textures/CTS/AdvancedLab/AdvancedLab_east.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenF11.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenVF2.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGeothermalPlantFrames/GeothermalPlantOFF.png
+- Assets/Data/Mlie.CTS/Textures/CTS/Items/NanoMedicine.png
+- Assets/Data/Mlie.CTS/Textures/CTS/HiTechBed/HiTechHospitalBed_south.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGeothermalPlantFrames/GeothermalPlantF7.png
+- Assets/Data/Mlie.CTS/Textures/CTS/AdvancedVitalMonitor/ico/AdvancedVitalMonitor_menuicon.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGeothermalPlantFrames/GeothermalPlantF1.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGeothermalPlantFrames/GeothermalPlantF3.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenVF2.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenVF1.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenVF12.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenVF4.png
+- Assets/Data/Mlie.CTS/Textures/CTS/AdvancedVitalMonitor/AdvancedVitalMonitor_south.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenOff.png
+- Assets/Data/Mlie.CTS/Textures/CTS/AdvancedVitalMonitor/AdvancedVitalMonitor_east.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenF8.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenF9.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGeothermalPlantFrames/GeothermalPlantF6.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenVF8.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenF4.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGenFrames/PlasmaGenVF5.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenF3.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaBigGenFrames/PlasmaBigGenVF12.png
+- Assets/Data/Mlie.CTS/Textures/CTS/Items/BloodBag.png
+- Assets/Data/Mlie.CTS/Textures/CTS/PlasmaGeothermalPlantFrames/GeothermalPlantF8.png
+- Assets/Data/Mlie.CTS/Textures/CTS/HiTechBed/HiTechHospitalBed_north.png
+Dependencies: []

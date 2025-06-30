@@ -9,7 +9,7 @@ namespace CTS;
 
 internal class Designator_TakeBlood : Designator
 {
-    public bool didWeDesignateAnything;
+    private bool didWeDesignateAnything;
 
     public Designator_TakeBlood()
     {
@@ -35,7 +35,7 @@ internal class Designator_TakeBlood : Designator
         DefDatabase<DesignationCategoryDef>.ResolveAllReferences();
     }
 
-    public override int DraggableDimensions => 2;
+    public override DrawStyleCategoryDef DrawStyleCategory => DrawStyleCategoryDefOf.Orders;
 
     public override AcceptanceReport CanDesignateCell(IntVec3 c)
     {
@@ -105,7 +105,7 @@ internal class Designator_TakeBlood : Designator
         NotifyResult();
     }
 
-    public void NotifyResult()
+    private void NotifyResult()
     {
         if (didWeDesignateAnything)
         {

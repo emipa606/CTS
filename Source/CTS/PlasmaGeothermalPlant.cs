@@ -56,7 +56,7 @@ public class PlasmaGeothermalPlant : Building
         breakdownableComp = GetComp<CompBreakdownable>();
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         base.Tick();
         checked
@@ -67,7 +67,6 @@ public class PlasmaGeothermalPlant : Building
             {
                 powerComp.PowerOutput = 0f;
                 timer = 0;
-                HandleAnimation();
             }
             else
             {
@@ -87,9 +86,9 @@ public class PlasmaGeothermalPlant : Building
                 {
                     FleckMaker.ThrowAirPuffUp(this.TrueCenter(), Map);
                 }
-
-                HandleAnimation();
             }
+
+            HandleAnimation();
         }
     }
 

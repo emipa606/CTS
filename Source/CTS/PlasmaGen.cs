@@ -75,7 +75,7 @@ public class PlasmaGen : Building
         Scribe_Values.Look(ref Stage, "Stage");
     }
 
-    public override void Tick()
+    protected override void Tick()
     {
         base.Tick();
         checked

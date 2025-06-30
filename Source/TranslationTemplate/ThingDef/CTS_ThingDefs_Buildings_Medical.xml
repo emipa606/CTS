@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Advanced Medicine Laboratory -->
+  <CTSAdvancedMedicineLab.label>Advanced Medicine Laboratory</CTSAdvancedMedicineLab.label>
+  <!-- EN: You can craft bandages, medicine, glitterworld medicine, nano-tech medicine. -->
+  <CTSAdvancedMedicineLab.description>You can craft bandages, medicine, glitterworld medicine, nano-tech medicine.</CTSAdvancedMedicineLab.description>
+  <!-- EN: Advanced vitals monitor -->
+  <CTSAdvancedVitalsMonitor.label>Advanced vitals monitor</CTSAdvancedVitalsMonitor.label>
+  <!-- EN: Very Increases patients treatment quality. Needs to be placed adjacent to a Hi-tech medical bed. One Hi-tech medical bed can be linked to only one Advanced vitals monitor. -->
+  <CTSAdvancedVitalsMonitor.description>Very Increases patients treatment quality. Needs to be placed adjacent to a Hi-tech medical bed. One Hi-tech medical bed can be linked to only one Advanced vitals monitor.</CTSAdvancedVitalsMonitor.description>
+  <!-- EN: Hi-tech Hospital Beds -->
+  <CTSHiTechHospitalBed.label>Hi-tech Hospital Beds</CTSHiTechHospitalBed.label>
+  <!-- EN: A hi-tech bed specially designed for brutal surgery. Very improves chance of successful medical work. -->
+  <CTSHiTechHospitalBed.description>A hi-tech bed specially designed for brutal surgery. Very improves chance of successful medical work.</CTSHiTechHospitalBed.description>
+</LanguageData>

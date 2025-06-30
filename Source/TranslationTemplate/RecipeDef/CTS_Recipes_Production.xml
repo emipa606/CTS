@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Make Bandages -->
+  <CTSMakeBandage.label>Make Bandages</CTSMakeBandage.label>
+  <!-- EN: Sterilize cloth to create bandages. -->
+  <CTSMakeBandage.description>Sterilize cloth to create bandages.</CTSMakeBandage.description>
+  <!-- EN: Creating Bandages. -->
+  <CTSMakeBandage.jobString>Creating Bandages.</CTSMakeBandage.jobString>
+  <!-- EN: Make Glitterworld Medicine -->
+  <CTSMakeGlitterMedicine.label>Make Glitterworld Medicine</CTSMakeGlitterMedicine.label>
+  <!-- EN: Combine Medical Kits, Blood bags and Bandages to create a higher quality medical kit. -->
+  <CTSMakeGlitterMedicine.description>Combine Medical Kits, Blood bags and Bandages to create a higher quality medical kit.</CTSMakeGlitterMedicine.description>
+  <!-- EN: Creating Glitter world medical pack. -->
+  <CTSMakeGlitterMedicine.jobString>Creating Glitter world medical pack.</CTSMakeGlitterMedicine.jobString>
+  <!-- EN: Make Nano-tech Medicine -->
+  <CTSMakeNanoTechMedicine.label>Make Nano-tech Medicine</CTSMakeNanoTechMedicine.label>
+  <!-- EN: Combine Medical Kits, Blood bags and Advcanced Components to create a hi-tech superior nanites medical kit. -->
+  <CTSMakeNanoTechMedicine.description>Combine Medical Kits, Blood bags and Advcanced Components to create a hi-tech superior nanites medical kit.</CTSMakeNanoTechMedicine.description>
+  <!-- EN: Creating Nano-tech Medicine. -->
+  <CTSMakeNanoTechMedicine.jobString>Creating Nano-tech Medicine.</CTSMakeNanoTechMedicine.jobString>
+</LanguageData>

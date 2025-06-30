@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Bandages -->
+  <CTSBandage.label>Bandages</CTSBandage.label>
+  <!-- EN: A pack bandages for basic treatment. -->
+  <CTSBandage.description>A pack bandages for basic treatment.</CTSBandage.description>
+  <!-- EN: Nano-tech medicine -->
+  <CTSNanoTechMedicine.label>Nano-tech medicine</CTSNanoTechMedicine.label>
+  <!-- EN: Advanced medical nanites, best medicine in Rimworld. -->
+  <CTSNanoTechMedicine.description>Advanced medical nanites, best medicine in Rimworld.</CTSNanoTechMedicine.description>
+</LanguageData>

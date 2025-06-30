@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: take blood -->
+  <CTSTakeBlood.label>take blood</CTSTakeBlood.label>
+  <!-- EN: Take blood -->
+  <CTSTakeBlood.description>Take blood</CTSTakeBlood.description>
+  <!-- EN: Taking blood -->
+  <CTSTakeBlood.jobString>Taking blood</CTSTakeBlood.jobString>
+</LanguageData>
